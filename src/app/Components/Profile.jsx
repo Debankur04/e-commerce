@@ -10,17 +10,17 @@ const Profile = () => {
         alt="Picture of the author"
         className='my-2 h-1/2 rounded'
       />
-      <div>
-        <div className='font-bold text-3xl'>Chris Cross Plain Navy Blue T-Shirt</div>
-        <div className='font-semibold text-2xl'>250</div>
+      <div className='w-1/3'>
+        <div className='font-bold text-3xl py-4'>Chris Cross Plain Navy Blue T-Shirt</div>
+        <div className='font-semibold text-2xl py-2'>250</div>
         <div className='text-gray-500'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet facere quasi iste vitae! Tenetur quo impedit repudiandae nesciunt placeat atque.</div>
-        <div className='font-semibold'>Select Size</div>
-        <div className='flex gap-12'>
+        <div className='font-semibold py-4'>Select Size</div>
+        <div className='flex gap-12 py-2'>
           <div className='bg-gray-500 flex justify-center items-center h-8 w-8'>S</div>
           <div className='bg-gray-500 flex justify-center items-center h-8 w-8'>L</div>
           <div className='bg-gray-500 flex justify-center items-center h-8 w-8'>XL</div>
         </div>
-        <button className='p-1 w-36 bg-black text-white'>Add To Cart</button>
+        <button className='p-1 w-36 bg-black text-white my-8'>Add To Cart</button>
         <hr />
         <div className='text-gray-500'>100% Cotton Product.</div>
         <div className='text-gray-500'>Cash on Delivery.</div>

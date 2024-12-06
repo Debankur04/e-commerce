@@ -5,7 +5,7 @@ import { Send } from 'lucide-react'
 const Footer = () => {
   return (
     <div>
-        <div className='bg-green-400 flex justify-around p-4 mx-28 rounded-2xl'>
+        <div className='bg-green-400 flex justify-around p-4 mx-28 rounded-2xl my-6'>
             <div className='w-1/2'>
                 <div className='font-semibold text-3xl py-8'>Fast And Stylish Fits at the your doorstep</div>
                 <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas iure eveniet maxime, necessitatibus atque enim.</div>
@@ -22,24 +22,24 @@ const Footer = () => {
             className='h-60 w-40'
             />
         </div>
-        <div className='flex justify-evenly w-screen'>
-            <div className="bg-gray-500 rounded-xl w-1/6 flex flex-col items-center justify-center px-2">
+        <div className='flex justify-evenly w-full my-16'>
+            <div className="bg-gray-500 rounded-xl w-1/6 flex flex-col items-center justify-center px-2 py-1">
                 <div className="text-xl font-bold">Best Prices</div>
                 <div className="">Orders of 250 or more</div>
             </div>
-            <div className="bg-gray-500 rounded-xl w-1/6 flex flex-col items-center justify-center px-2">
+            <div className="bg-gray-500 rounded-xl w-1/6 flex flex-col items-center justify-center px-2 py-1">
                 <div className="text-xl font-bold">Free Delivery</div>
                 <div className="">Orders of 500 or more</div>
             </div>
-            <div className="bg-gray-500 rounded-xl w-1/6 flex flex-col items-center justify-center px-2">
+            <div className="bg-gray-500 rounded-xl w-1/6 flex flex-col items-center justify-center px-2 py-1">
                 <div className="text-xl font-bold">Great Daily Deal</div>
                 <div className="">Special Section for that</div>
             </div>
-            <div className="bg-gray-500 rounded-xl w-1/6 flex flex-col items-center justify-center px-2">
+            <div className="bg-gray-500 rounded-xl w-1/6 flex flex-col items-center justify-center px-2 py-1">
                 <div className="text-xl font-bold">Wide Assortment</div>
                 <div className="">Sending Happiness to every corner of the globe</div>
             </div>
-            <div className="bg-gray-500 rounded-xl w-1/6 flex flex-col items-center justify-center px-2">
+            <div className="bg-gray-500 rounded-xl w-1/6 flex flex-col items-center justify-center ">
                 <div className="text-xl font-bold">Easy Returns</div>
                 <div className="">Cuase we understand mistakes are the fun part of life</div>
             </div>
