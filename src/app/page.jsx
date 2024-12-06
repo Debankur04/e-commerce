@@ -1,4 +1,5 @@
 
+"use client";
 import About from "./Components/About";
 import BlackHole from "./Components/BlackHole";
 import Contacts from "./Components/Contacts";
