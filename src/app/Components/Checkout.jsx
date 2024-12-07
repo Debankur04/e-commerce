@@ -3,6 +3,7 @@ import styles from '../CSS/Checkout.module.css';
 
 const Form = () => {
   return (
+    <div className='w-screen h-[80vh] flex justify-center items-center'>
       <div className={styles.container}>
         <div className={styles.card + ' ' + styles.cart}>
           <label className={styles.title}>CHECKOUT</label>
@@ -48,6 +49,7 @@ const Form = () => {
             <button className={styles.promo +''+ styles.form +''+ styles.button}>Checkout</button>
           </div>
         </div>
+      </div>
       </div>
   );
 }
